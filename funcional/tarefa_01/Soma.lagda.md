@@ -1,4 +1,4 @@
-<img align="left" width="150" height="150" src="../../assets/cc.png" />
+<img align="left" width="250" height="200" src="../../assets/cc.png" />
 
 **AARE**: Paradigmas de Linguagem de Programação
 
@@ -8,7 +8,7 @@
 
 **Data**: 17 de agosto de 2021
 
-**Nome ALuno**: Zoey de Souza Pessanha
+**Nome Aluno**: Zoey de Souza Pessanha
 
 ---
 
@@ -45,7 +45,9 @@ Primeiramente, crio um módulo `Soma`. Um módulo é formado por um conjunto de 
 
 ∀n ∈ ℕ, suc n ∈ ℕ
 
-Para executar o programa, utilizei o `agda-mode` do [emacs](https://www.gnu.org/software/emacs/). AAlém disso, caso queria usar os construtores de números naturais da bibliotexa padrão da linguagem, adiciona o [pragma](https://agda.readthedocs.io/en/latest/language/pragmas.html#pragmas):
+Para executar o programa, utilizei o `agda-mode` do [emacs](https://www.gnu.org/software/emacs/). Para fazer a checagem do código, basta executar `C-c C-l` e para testar em modo interativo, `C-c C-n`.
+
+Além disso, caso queria usar os construtores de números naturais da bibliotexa padrão da linguagem, adiciona o [pragma](https://agda.readthedocs.io/en/latest/language/pragmas.html#pragmas):
 
 ```agda
 {-# BUILTIN NATURAL ℕ #-}
