@@ -1,9 +1,13 @@
-<img align="left" width="150" height="150" src="../../../../assets/cc.png" />
+<img align="left" width="150" height="150" src="../../assets/cc.png" />
 
 **AARE**: Paradigmas de Linguagem de Programação
+
 **Professor**: Ausberto S. Castro Vera
+
 [ascv@uenf.br](mailto:ascv@uenf.br)
+
 **Data**: 17 de agosto de 2021
+
 **Nome ALuno**: Zoey de Souza Pessanha
 
 ---
