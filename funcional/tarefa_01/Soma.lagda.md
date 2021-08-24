@@ -14,7 +14,11 @@
 
 # Tarefa 01
 
-### 1. Código fonte do programa
+### 1. Descrição do problema
+
+Faça um programa em qualquer linguagem de programação para que dois números sejam somados.
+
+### 2. Código fonte do programa
 
 ```agda
 module Soma where
@@ -29,13 +33,13 @@ zero  + n    = n
 suc n + m    = suc (n + m)
 ```
 
-### 2. Telas capturadas mostrando a execução do programa
+### 3. Telas capturadas mostrando a execução do programa
 
 ![Primeiro teste](./assets/teste1.gif)
 ![Segundo teste](./assets/teste2.gif)
 ![Terceiro teste](./assets/teste3.gif)
 
-### 3. Informações adicionais
+### 4. Informações adicionais
 
 `Agda` é uma linguagem funcional, com tipos dependentes e um ajuadnde de provas lógicas. Isso significa que os tipos também possuem valores na linguagem. A proposta de `Agda` é que seu programa sempre finaliza com um valor, ou seja, não há erros em tempo de execução, apenas em tempo de compilação.
 
