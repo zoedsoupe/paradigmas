@@ -18,9 +18,10 @@
         agda = pkgs.agda.withPackages (p: [ p.standard-library ]);
       in {
         devShell = pkgs.mkShell {
-          buildInputs = with haskellPackages; [
+          buildInputs = with pkgs; with haskellPackages; [
             ghc
             agda
+            racket
           ];
         };
       });
