@@ -1,4 +1,4 @@
-<img align="left" width="250" height="200" src="../../assets/cc.png" />
+<img align="left" width="250" height="200" src="../../assets/uenf.png" />
 
 **AARE**: Paradigmas de Linguagem de Programação
 
@@ -25,7 +25,9 @@ Código:
 ```
 
 `(begin)` -> cria um contexto de expressões
+
 `(display string1)` -> imprime a `string1` dada como argumento em `stdout`
+
 `(new-line)` -> insere uma nova linha (`/n`) no `stdout`
 
 ### 2 - Edite o arquivo anterior e imprima "Prática 01 - Linguagem Racket", o nome do aluno e a data atual
@@ -55,4 +57,4 @@ Código:
 
 ```
 #### 4.2
-![expressão matemática](./assets/4.2-sqrt.png)
+![expressão matemática](./assets/4_2-sqrt.png)
