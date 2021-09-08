@@ -48,13 +48,20 @@ Código:
 ```
 
 ### 3 - Execute o arquivo `02-numeros.rkt` e mostre o resultado
-![resultado execução arquivo 02-numeros.rkt](./assets/02-numeros.png)
+![resultado execução arquivo 02-numeros.rkt](./assets/02-numeros.gif)
 
 ### 4 - Escreva  programas Racket para as seguintes expressões:
 #### 4.1 - H =  (4 – (7^2 + 6^3) / 3) – (6 + (5 – (2^4 – 8))
 Código:
 ```racket
-
+(- (- 4 (/ (+ (expt 7 2) (expt 6 3)) 3)) (+ 6 (- 5 (- (expt 2 4) 8))))
 ```
 #### 4.2
 ![expressão matemática](./assets/4_2-sqrt.png)
+Código:
+```racket
+(sqrt (/ (+ (expt 7 2)
+	     (+ 5
+		    (+ (sin (- 18 7))
+			   (cos (+ 20 2))))) (* (+ 5 3) (expt (- 4 8) 2))))
+```

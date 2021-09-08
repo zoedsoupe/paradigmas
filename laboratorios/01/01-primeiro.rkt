@@ -11,7 +11,7 @@
 ;; questão 01
 (begin
   (newline)
-  (display "Bom dia, UENF. Bemvindo à Linguagem Racket-Scheme! 2021")
+  (display "Bom dia, UENF. Bem vindo à Linguagem Racket-Scheme! 2021")
   (newline))
 
 ;; questão 02
