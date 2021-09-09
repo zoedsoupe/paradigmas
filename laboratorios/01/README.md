@@ -203,3 +203,19 @@ Veja o arquivo de [implementação](./8-2-condicionalIF.rkt)
 #### 9.1 Escreva uma programa que calcule o fatorial de um número de uma forma diferente da apresentada
 
 Veja o arquivo de [implementação](./9-1-formulas.rkt)
+
+### 10 Execute o arquivo `08-condicional.rkt` e explique o resultado
+
+![execução 08-condicional.rkt](./assets/08-condicional.gif)
+
+O programa cria uma expressão `cond` com três ramos onde compara o argumento `quantidade`. Caso algum desses ramos seja verdadeiro, a função retorna a respectiva taxa aplicada aquela quantidade, do contrário devolve `1`.
+
+#### 10.1 Escreva um programa condicional com pelo menos 5 opções
+
+Veja o arquivo de [implementação](./10-1-condicional.rkt)
+
+#### 10.2 Escreva um programa `bhaskara.rkt` que calcule as raízes de uma equação `25x^2 - 55x+10 = 0`, utilizando a fórmula de Bhaskara. Sugestão: Primeiro faça o algoritmo completo
+
+![execução 10-2-condicional.rkt](./assets/10-2-condicional.gif)
+
+Veja o arquivo de [implementação](./bhaskara.rkt)
