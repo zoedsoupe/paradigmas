@@ -137,3 +137,25 @@ _Explicação:_ Com uma expressão `letrec` posso criar contextos recursivos que
 ```
 
 _Explicação:_ Associo o valor `2` a dois nome (`x` e `y`) e crio sinônimos para as funções de soma e produto. No corpo da expressão `let` eu verifico se a aplicação de cada função em `x` e `y` são iguais e imprimo uma mensagem diferente dependendo do resultado
+
+### 6 Execute o arquivo `04-areas.rkt` e explique o resultado
+![execução 04-areas.rkt](./assets/04-areas.gif)
+
+O programa define três funções para cálculos de área das formas:
+- Circulo
+- Triângulo
+- Disco
+
+Por último, o programa aplica cada uma dessas funções a valores, com mensagens impresas na tela para especificar os respectivos valores
+
+#### 6.1 Escreva um programa Racket para calcular a área de um quadrado qualquer, a área de um trapézio e a área de um polígono
+
+![execução 6-1-areas.rkt](./assets/6-1-areas.gif)
+
+Veja o arquivo de [implementação](./6-1-areas.rkt)
+
+#### 6.2 Escreva um programa para calcular o volume de um galão de óleo utilizando a fórmula V = pR^2A, onde as variáveis V, R e A representam, respectivamente, o volume, o raio e a altura
+
+![execução 6-2-galao.rkt](./assets/6-2-galao.gif)
+
+Veja o arquivo de [implementação](./6-2-galao.rkt)
