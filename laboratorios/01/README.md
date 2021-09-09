@@ -219,3 +219,24 @@ Veja o arquivo de [implementação](./10-1-condicional.rkt)
 ![execução 10-2-condicional.rkt](./assets/10-2-condicional.gif)
 
 Veja o arquivo de [implementação](./bhaskara.rkt)
+
+### 11 Execute o programa `09-pares.rkt`
+
+![execução 09-pares.rkt](./assets/09-pares.gif)
+
+#### 11.1 Escreva um programa para construir dois pares e indicar em cada um deles o primeiro e o segundo elemento
+
+Veja o arquivo de [implementação](./11-1-pares.rkt)
+
+### 12 Executar os programas `10-listas.rkt` e `11-listas.rkt` e observe quantos métodos existem para construir listas
+
+![execução 10-listas.rkt](./assets/10-listas.gif)
+![execução 11-listas.rkt](./assets/11-listas.gif)
+
+#### 12.1 Escreva um programa para construir uma lista e determinar seu primeiro e último elemento, seu comprimento, e uma nova lista com dois elementos a mais que a anterior
+
+![execução 12-1-listas.rkt](./assets/12-1-listas.gif)
+
+#### 12.2 Utilizando uma ÚNICA linha de comandos, escreva um programa para construir a lista `(4  7  2  9 8 7  1  6  2  3  4)` a partir das listas `A=(1 2 3 4)` e `B=(5 6 7 8 9)`
+
+![execução 12-2-listas.rkt](./assets/12-2-listas.gif)
