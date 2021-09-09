@@ -180,7 +180,7 @@ Veja o arquivo de [implementação](./7-1-funcoes.rkt)
 
 ### 8 Execute o arquivo `06-condicionalIF.rkt` e explique o resultado
 
-![execução 08-condicionalIF.rkt](./assets/08-condicionalIF.gif)
+![execução 06-condicionalIF.rkt](./assets/06-condicionalIF.gif)
 
 O programa define uma variável `P` com valor `126`, imprime-a na tela e faz uma condicional, verificando se `P` é maior que `57`, se for é impresso uma mensagem dizendo que `P` é maior e no ramo falso, a mensagem é a oposta;
 
@@ -195,3 +195,11 @@ Veja o arquivo de [implementação](./8-1-condicionalIF.rkt)
 #### 8.2 Escreva um programa para calcular a media de três notas e indique “Aprovado” se for maior ou igual a 6,0, e “Reprovado”, caso contrário
 
 Veja o arquivo de [implementação](./8-2-condicionalIF.rkt)
+
+### 9 Execute o arquivo `07-formulas.rkt` e explique o resultado
+
+![execução 07-formulas.rkt](./assets/07-formulas.gif)
+
+#### 9.1 Escreva uma programa que calcule o fatorial de um número de uma forma diferente da apresentada
+
+Veja o arquivo de [implementação](./9-1-formulas.rkt)
