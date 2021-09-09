@@ -159,3 +159,21 @@ Veja o arquivo de [implementação](./6-1-areas.rkt)
 ![execução 6-2-galao.rkt](./assets/6-2-galao.gif)
 
 Veja o arquivo de [implementação](./6-2-galao.rkt)
+
+### 7 Execute o arquivo `05-funcoes.rkt` e explique o resultado
+
+![execução 05-funcoes.rkt](./assets/05-funcoes.gif)
+
+O arquivo define seis funções:
+- ADICIONA -> apenas soma dois valores
+- soma -> imprime na tela uma mensagem descrevendo a soma e depois imprime o resultado dessa soma
+- produto -> imprime na tela uma mensagem descritiva sobre a operação, imprime os valores e depois o resultado do produto entre os valores
+- divisao -> imprime na tela uma mensagem descrevendo a operação de divisão e depois o resultado do cálculo
+- diferenca -> imprime na tela uma descrição da operação e depois seu resultado
+- quadrado -> imprime a descrição da operação e logo em seguida seu resultado
+
+Obs: inicialmente as funções `produto`, `divisao`, `diferenca` e `quadrado` estavam calculando a soma na verdade, usando a função `(+)`. Isso é corrigido como pode ser visto no GIF acima
+
+#### 7.1 Escreva um programa onde é definido duas funções
+
+Veja o arquivo de [implementação](./7-1-funcoes.rkt)
