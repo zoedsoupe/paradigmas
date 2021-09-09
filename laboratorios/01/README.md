@@ -177,3 +177,21 @@ Obs: inicialmente as funções `produto`, `divisao`, `diferenca` e `quadrado` es
 #### 7.1 Escreva um programa onde é definido duas funções
 
 Veja o arquivo de [implementação](./7-1-funcoes.rkt)
+
+### 8 Execute o arquivo `06-condicionalIF.rkt` e explique o resultado
+
+![execução 08-condicionalIF.rkt](./assets/08-condicionalIF.gif)
+
+O programa define uma variável `P` com valor `126`, imprime-a na tela e faz uma condicional, verificando se `P` é maior que `57`, se for é impresso uma mensagem dizendo que `P` é maior e no ramo falso, a mensagem é a oposta;
+
+É definidauma função `reply`, que verifica se seu argumento é igual a `"Oi"`, se for, a função responde `"Tudo bem?"`, do contrário responde `"Não entendi."`;
+
+Também é definida uma função de ajuda `quadrado`, para então ser definida a `minquadrado`, que recebe dois argumentos e devolve o quadrado do menor argumento.
+
+#### 8.1 Escreva um programa com dois condicionais
+
+Veja o arquivo de [implementação](./8-1-condicionalIF.rkt)
+
+#### 8.2 Escreva um programa para calcular a media de três notas e indique “Aprovado” se for maior ou igual a 6,0, e “Reprovado”, caso contrário
+
+Veja o arquivo de [implementação](./8-2-condicionalIF.rkt)
