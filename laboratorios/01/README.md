@@ -286,8 +286,47 @@ O programa mostra as três funçÕes que representam os operadores lógicos:
 
 O programa também mostra a tabela verdade da conjunção e da disjunção junto a alguns exemplos
 
-![execução 14-operad-logico.rkt](./assets/14-operad-logico.png)
+![execução 14-operad-logico.rkt](./assets/14-operad-logicos.png)
 
 #### 14.1 Escreva e teste pelo menos cinco operações lógicas
 
-![execução 14-1-operad-logico.rkt](./assets/14-1-operad-logico.gif)
+![execução 14-1-operad-logico.rkt](./assets/14-1-operad-logicos.gif)
+
+### 15 Execute o programa `15-predicados.rkt` e explique o que o programa faz
+
+O programa faz testes de execuçÕes om as seguintes funções:
+- `eq?` -> verifica a igualdade de dois argumentos. Resultados de expressões `lambda` e até soma de alguns números podem não ser `eq?`, mas sempre serão `equal?`
+- `eqv?` -> verifica se os dois argumentos são equivalentes. Geralmente possui o mesmo resultado de `eq?`, com excessão de números e caracteres. No caso de números, serão equivalentes levando em conta sua precisão e caso ambos sejam iguais, diferentes de zero, dentre outros testes. Para caracteres, a equivalência se dá quando o código de ambos os caracteres são iguais, dado pela função `char->integer`
+- `boolean?` -> verifica se um argumento é um booleano `true` ou `false`
+- `null?` -> verifica se uma lista é vazia/nula
+- `pair?` -> verifica se o argumento é um par
+- `number?` -> verifica se o argument é um número (real, inteiro ou complexo)
+- `integer?` -> verifica se um argumento é um número inteiro
+- `real?` -> verifica se um argumento é um número real
+- `complex?` -> verifica se um argumento é um número complexo
+- `string?` -> verifica se o argumento é uma cadeia de caracteres
+
+![execução 15-predicados.rkt](./assets/15-predicados.gif)
+
+#### 15.1 Teste os predicados: `(char? 'm)`, `(char?  14)`, `(char? #\b)`, `(char? #\m)`
+
+![execução 15-1-predicados.rkt](./assets/15-1-predicados.png)
+
+### 16 Execute o programa `16-mapeamentos.rkt` e explique o que o programa faz
+
+O programa define três funções básicas:
+- `quadrado`
+- `dobro`
+- `proximo`
+
+Depois define uma lista de números e mapeia a função `sqrt` nela. Por fim, mapeia cada uma das três funçÕes definidas anteriormente numa segunda lista definida. Mapear, no caso, é executar uma função `f` em cada elemento de uma lista. Formalmente, chamamos a lista de _Funtor_, que permite a execução de uma função em cada um de seus elementos, sem que sejam perdidos seus domínios, contradomínios, identidades e composições.
+
+![execução 16-mapeamentos.rkt](./assets/16-mapeamentos.png)
+
+#### 16-1 TODO
+
+### 17 Execute o programa `17-raizes-poly.rkt` e explique o que o programa faz
+
+TODO
+
+![execução 17-raizes-poly.rkt](./assets/17-raizes-poly.png)
