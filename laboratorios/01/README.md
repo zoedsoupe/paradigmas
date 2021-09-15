@@ -240,3 +240,54 @@ Veja o arquivo de [implementação](./11-1-pares.rkt)
 #### 12.2 Utilizando uma ÚNICA linha de comandos, escreva um programa para construir a lista `(4  7  2  9 8 7  1  6  2  3  4)` a partir das listas `A=(1 2 3 4)` e `B=(5 6 7 8 9)`
 
 ![execução 12-2-listas.rkt](./assets/12-2-listas.gif)
+
+### 13 Executar os programas `12-lambda.rkt` e `13-lambda.rkt` descreva o que cada um faz
+
+No programa `12-lambda.rkt` é introduzido expressões `lambda` que permite criar funções anônimas. Nesse programa, são definidas três funções em termos de expressões `lambda`:
+1. `duasvezes` -> aplica a função `f` no argumento `x`, duas vezes. Ex: `(duasvezes + 3) === (+ 3 3)`
+2. `com5` -> aplica qualquer função `f` com o segundo parâmetro sendo `5`. Ex: `(com5 * 6) === (* 6 5)`
+3. `polinomio` -> Apenas calcula o polinômio `P(x) = X^2 + 3X - 7` dado `x` como argumento
+
+![execução 12-lambda.rkt](./assets/12-lambda.png)
+
+Já no programa `13-lambda.rkt`, são definidas outras três funções por meio da expressão `lambda`:
+1. `comprimento` -> que recursivamente calcula o comprimento de uma lista `xs`. Ex `(comprimento '(1 2 3)) === 3`
+2. `remove` -> recursivamente remove um elemento de uma lista. Caso esse elemento seja repetido no decorrer da lista, todas suas repetições são removidas também. Ex `(remove 4 '(4 4 4 1)) === '(1)`
+3. `inverso` -> devolve o inverso de um número. Caso o argumento não seja um número ou seja zero, é devolvida uma mensagem de erro
+
+![execução 13-lambda.rkt](./assets/13-lambda.png)
+
+#### 13.1 Crie uma função para realizar o cálculo de uma prestação em atraso, utilizando a fórmula `Prest = valor + (valor*(taxa/100)*tempo)`
+
+Veja o arquivo de [implementação](./13-1-lambda.rkt)
+
+#### 13.2 O que faz o seguinte procedimento `abcd`:
+```racket
+(define abcd
+  (lambda (n)
+    (let f ((i 2))
+      (cond
+        ((>= i n) '())
+        ((integer? (/ n i))
+         (cons i (f (+ i 1))))
+        (else (f (+ i 1)))))))
+```
+
+_Explicação:_ A função `abcd` possui uma expressão `lambda` que recebe um argumento `n` e uma expressão `let` que define um identificador para o corpo da expressão, além de definir um valor inicial para `i`. Caso o `i` seja maior ou igual que `n`, a função retorna uma lista vazia.
+
+Caso a divisão de `n` por `i` resulte num número inteiro, então a função retorna um par onde o primeiro elemento é `i` e o segundo é chamada recursiva da expressão `let`, agora com `i` acrescentado de um. O último caso ocorre quando nenhum dos outros dois são executados. Nele, a expressão `let` é chamada novamente com o `i` acrescentado de um.
+
+### 14 Execute o programa `14-operad-logico.rkt` e explique o que o programa faz
+
+O programa mostra as três funçÕes que representam os operadores lógicos:
+1. `and` -> conjunção lógica
+2. `or` -> disjunção lógica
+3. `not` -> negação lógica
+
+O programa também mostra a tabela verdade da conjunção e da disjunção junto a alguns exemplos
+
+![execução 14-operad-logico.rkt](./assets/14-operad-logico.png)
+
+#### 14.1 Escreva e teste pelo menos cinco operações lógicas
+
+![execução 14-1-operad-logico.rkt](./assets/14-1-operad-logico.gif)
